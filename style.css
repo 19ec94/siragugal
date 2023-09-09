@@ -19,7 +19,7 @@ html {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: bold;
   color: rgba(123,40,90,1);
 }
@@ -67,7 +67,7 @@ nav a {
   text-decoration: none;
   font-size: 1.5rem;
   color: black;
-  padding: calc(8px + 1.0vw);
+  padding: calc(8px);
   border-radius: 1rem;
 }
 
@@ -92,7 +92,7 @@ main.home {
 }
 
 main.home h1 {
-  font-size: 2rem;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -107,8 +107,8 @@ main.home h1 {
 }
 .home ul.service-list li {
   background-color: lightgreen;
-  padding: 3rem;
-  margin: 3rem;
+  padding: 1.5rem;
+  margin: 1.5rem;
   border-radius: 1rem;
 }
 
