@@ -19,7 +19,7 @@ html {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
   color: rgba(123,40,90,1);
 }
@@ -65,9 +65,9 @@ nav {
 nav a {
   display: block;
   text-decoration: none;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: black;
-  padding: calc(8px + 1.5vw);
+  padding: calc(8px + 1.0vw);
   border-radius: 1rem;
 }
 
@@ -92,7 +92,7 @@ main.home {
 }
 
 main.home h1 {
-  font-size: 4rem;
+  font-size: 2rem;
   text-align: center;
 }
 
