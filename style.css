@@ -181,7 +181,6 @@ ul.image-gallery {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  /*justify-content: center;*/
   gap: 2em;
   padding: 2em;
 }
@@ -189,8 +188,12 @@ ul.image-gallery {
 .image-gallery > li {
  /* flex-basis: 350px;*/
   height: 300px;
+	max-width: 500px;
   cursor: pointer;
   position: relative;
+	display:flex;
+  justify-content: center;
+	align-items: center;
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: auto;
@@ -217,3 +220,4 @@ ul.image-gallery {
 .footer-container {
   text-align: center;
 }
+
